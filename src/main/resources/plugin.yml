@@ -1,0 +1,21 @@
+name: BanX
+version: ${project.version}
+main: org.pyacademy.BanX
+api-version: 1.13
+authors: [Krityug]
+description: BanX is designed to protect servers by intruders
+commands:
+  tempban:
+    description: Used to temporarily ban online players.
+    usage: /tempban <player> <amount> <unit>
+    aliases: [tban,tb]
+  tempbanexact:
+    description: Used to temporarily ban online/offline players.
+    usage: /tempbanexact <player> <amount> <unit>
+    aliases: [tbanexact,tbe,tempbane]
+  unban:
+    description: Used to unban banned players.
+    usage: /unban <player>
+  check:
+    description: Used to check player's ban status.
+    usage: /check <player>
